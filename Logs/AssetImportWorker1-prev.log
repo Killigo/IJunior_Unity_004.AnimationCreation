@@ -1,0 +1,344 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professiona' Language: 'ru' Physical Memory: 32690 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/UnityProject/004.AnimationCreation
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53274
+Successfully changed project path to: F:/UnityProject/004.AnimationCreation
+F:/UnityProject/004.AnimationCreation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 74.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/UnityProject/004.AnimationCreation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12108 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002816 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 79.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (402ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 72.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1194ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (889ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.6 KB). Loaded Objects now: 4531.
+Memory consumption went from 151.6 MB to 151.5 MB.
+Total: 2.987600 ms (FindLiveObjects: 0.267900 ms CreateObjectMapping: 0.250700 ms MarkObjects: 2.404100 ms  DeleteObjects: 0.064300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12642.584763 seconds.
+  path: Assets/MagicCliffsArtwork/sky.png
+  artifactKey: Guid(934d773f096874824bd544d55c4d8538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/sky.png using Guid(934d773f096874824bd544d55c4d8538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdddaf8fb816d0b5cbb4db3321bdd8d') in 0.049917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MagicCliffsArtwork/cave-tileset.png
+  artifactKey: Guid(f5091b27a656f437094000095b53c3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/cave-tileset.png using Guid(f5091b27a656f437094000095b53c3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2b88c407f5f3c1a38c15db1aa009f3') in 0.192633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.733248 seconds.
+  path: Assets/Cyberpunk street/Music/last area.wav
+  artifactKey: Guid(4e67c240c04bb4e4190f29c10977b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Music/last area.wav using Guid(4e67c240c04bb4e4190f29c10977b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b8c0f8d1f6d8e367ab78bdf3e2f42') in 0.026192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.820087 seconds.
+  path: Assets/Cyberpunk street/Version 1/back-buildings.png
+  artifactKey: Guid(8ea0694ab1ae21542bb23171183ed33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 1/back-buildings.png using Guid(8ea0694ab1ae21542bb23171183ed33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a045efe9691268f2b6f19874a68c1ed7') in 0.011929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Cyberpunk street/Version 1/foreground.png
+  artifactKey: Guid(2a15ceb6a3790aa468863d5c65d91485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 1/foreground.png using Guid(2a15ceb6a3790aa468863d5c65d91485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e557609c85a3e88d1f5659075a4cacf0') in 0.010989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.749730 seconds.
+  path: Assets/Cyberpunk street/Version 2/back.png
+  artifactKey: Guid(f28555c6681a94142a2cd921d9436a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/back.png using Guid(f28555c6681a94142a2cd921d9436a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66c6418eb485afd78b2e6ee6c43bb7a') in 0.012875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cyberpunk street/Version 2/middle.png
+  artifactKey: Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/middle.png using Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b233fd2497e2eab8ef7895928beeaacb') in 0.010544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.486653 seconds.
+  path: Assets/Cyberpunk street/Version 2/middle.png
+  artifactKey: Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/middle.png using Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1575db26ed429cda9d8212bdbf19d9d3') in 0.019343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.177143 seconds.
+  path: Assets/Cyberpunk street/Version 2/middle.png
+  artifactKey: Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/middle.png using Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb3b5a91bc7a9a42335af30a57e525c') in 0.019377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.244892 seconds.
+  path: Assets/Cyberpunk street/Version 2/middle.png
+  artifactKey: Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/middle.png using Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cceb2939087725d924ce02cbe3e6ec0') in 0.016538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.902836 seconds.
+  path: Assets/Cyberpunk street/Version 2/middle.png
+  artifactKey: Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/middle.png using Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df375ad1d6840f25ace56cc9205afa9') in 0.016691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.873260 seconds.
+  path: Assets/Cyberpunk street/Version 2/middle.png
+  artifactKey: Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/middle.png using Guid(a21c1bf17fea427489a05d0988c50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3263c79904c26f1467c7aab2d872353') in 0.012599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.766716 seconds.
+  path: Assets/Cyberpunk street/Version 2/foreground.png
+  artifactKey: Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/foreground.png using Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3240b53262af67ef18be6debd55e40e') in 0.021615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.038152 seconds.
+  path: Assets/Cyberpunk street/Version 2/foreground.png
+  artifactKey: Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/foreground.png using Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4737d024bdbf8c52c0135336b509b246') in 0.023205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.502944 seconds.
+  path: Assets/Cyberpunk street/Version 2/foreground.png
+  artifactKey: Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/foreground.png using Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a58be5dee2c1df36ddd7d199b7168d7') in 0.020729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.850549 seconds.
+  path: Assets/Cyberpunk street/Version 2/foreground.png
+  artifactKey: Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/foreground.png using Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec3c80e5141cc2be6dc651320174c3c') in 0.023175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.761063 seconds.
+  path: Assets/Cyberpunk street/Version 2/foreground.png
+  artifactKey: Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/foreground.png using Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1185f0fff481c8d29371d2f37537f8ab') in 0.017273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.914135 seconds.
+  path: Assets/Cyberpunk street/Version 2/foreground.png
+  artifactKey: Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/foreground.png using Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf3a1c536ec45db7ade2884b53c5358') in 0.017027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.311232 seconds.
+  path: Assets/Cyberpunk street/Version 2/foreground.png
+  artifactKey: Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/foreground.png using Guid(2d2f724935279c9488a27e5eebe23055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb931a9456b5c55f5398bbc91d0d190b') in 0.020183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.833652 seconds.
+  path: Assets/Cyberpunk street/Version 2/back.png
+  artifactKey: Guid(f28555c6681a94142a2cd921d9436a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/back.png using Guid(f28555c6681a94142a2cd921d9436a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b2ed7653e44bac586bc69afe375f10') in 0.012010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.853830 seconds.
+  path: Assets/Cyberpunk street/Version 2/back.png
+  artifactKey: Guid(f28555c6681a94142a2cd921d9436a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cyberpunk street/Version 2/back.png using Guid(f28555c6681a94142a2cd921d9436a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19f5f0c81b42b7f6b4328c64d90b361') in 0.019462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.494359 seconds.
+  path: Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap.mat
+  artifactKey: Guid(b58354c186d9bde42ad2a4ab0545dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap.mat using Guid(b58354c186d9bde42ad2a4ab0545dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54faa38e2ec7865d5703f5a8f3fedd1f') in 0.023188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.574346 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/BlockFlash.prefab
+  artifactKey: Guid(803b96fa8ebd5a749bdf32bd0e553139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/BlockFlash.prefab using Guid(803b96fa8ebd5a749bdf32bd0e553139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e8ffad46af6efd6ba7ae5625a239a8') in 0.019387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab
+  artifactKey: Guid(2f7eeaf41636b0f4f8ca52ea6858fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab using Guid(2f7eeaf41636b0f4f8ca52ea6858fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f2c777e199acc9695116d27fd5bb68') in 0.018726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab
+  artifactKey: Guid(8b8c8cc6774fb074cb9139cc631b108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab using Guid(8b8c8cc6774fb074cb9139cc631b108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474a4fa676ade73922c457fc215fa6e1') in 0.006598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.718106 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab
+  artifactKey: Guid(d0a86346e04015245ae6126e465b87c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab using Guid(d0a86346e04015245ae6126e465b87c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c277bec9fe34408031ce47ff09e9373c') in 0.007341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset
+  artifactKey: Guid(16944a65ef007594a9a62996602798ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset using Guid(16944a65ef007594a9a62996602798ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df31adf3488d7471af4f3e631f45783b') in 0.006190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset
+  artifactKey: Guid(932822c3aa72d6245a38fc0e08fe9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset using Guid(932822c3aa72d6245a38fc0e08fe9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0a777577e7a4316b7422be70b94c39') in 0.003749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.340611 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/BlockFlash.png
+  artifactKey: Guid(a75445bb16444f14f96fdf9c734945cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/BlockFlash.png using Guid(a75445bb16444f14f96fdf9c734945cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d15da3342745f297f48c9a79749bba') in 0.019433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png
+  artifactKey: Guid(ae297123f091bbf4e8f1835eb98fb293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png using Guid(ae297123f091bbf4e8f1835eb98fb293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3d305eb2f32d0531ddad4aa5f39508') in 0.177376 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
